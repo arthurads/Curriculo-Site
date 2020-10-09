@@ -1,0 +1,341 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'modern_sanslight';
+    src: url('../font/modernsans-light-webfont.woff') format('woff2'),
+         url('../font/modernsans-light-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'modern_sanslight';
+}
+
+
+ul{
+    padding: 0px!important; /* sobreescrever o padrão que o navegador impôe*/
+}
+
+
+.menu-principal{
+    width: 100%;
+    background-color: #a55f07;
+    height: 60px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.redes-sociais ul li {
+    padding-top: 17px;
+    margin-left: 18px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+}
+
+.menu-urls{
+    border-bottom: 4px solid #efefef;
+    height: 80px;
+}
+
+
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 30px;
+    margin-right: 25px;
+
+    
+}
+
+
+.menu ul li:hover{
+    border-bottom: 1px solid #94672f;
+    
+}
+
+.menu ul li a:hover{
+    color: #94672f;
+
+}
+
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.redes-sociais{
+    width: 100%;
+}
+
+.header2{
+    background-color: #FFFFFF;
+    width: 980px;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.home{
+    width: 16%;
+    background-image: url(../img/home.svg);
+    background-repeat: no-repeat;
+    background-position: left -2px;
+}
+.projetos{
+    width: 14%;
+    background-image: url(../img/projetos.svg);
+    background-repeat: no-repeat;
+    background-position: left -0.8px;
+}
+.trabalho{
+    width: 25.5%;
+    background-image: url(../img/trabalhoestudo.svg);
+    background-repeat: no-repeat;
+    background-position: left -1.5px;
+
+}
+.contato{
+    width: 13%;
+    background-image: url(../img/contato.svg);
+    background-repeat: no-repeat;
+    background-position: left 1px;
+
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    top: 40%;
+    left: 12%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    top: 40%;
+    right: 12%;
+}
+
+.slider-principal{
+    width: 100%!important;
+    height: 550px;;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;  
+    float: left;
+
+}
+.slick-dots li {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+li.slick-active button{
+    background-color: #94672f;
+    border-radius: 50px;
+    
+
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;
+    top: 90%;  
+}
+
+
+
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.texto-destaque {
+    text-align: left;
+    padding: 35px;
+    
+    
+}
+
+.texto-destaque2 {
+    text-align: left;
+    padding: 35px;
+    margin-top: 10px;
+    
+    
+}
+
+.texto-destaque2 p{
+    position: relative;
+    color:  #242222;
+    
+    
+}
+
+.texto-destaque strong{
+    color: #818181;
+    
+}
+
+.texto-destaque p{
+    
+    position: relative;
+    color: #242222;
+
+}
+
+.foto-arthur{
+    float: left;
+    margin-right: 75px;
+}
+
+.foto-projeto{
+    float: left;
+    margin-right: 75px;
+    margin-bottom: 55px;
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer h2{
+    text-align: left;
+}
+
+.footer p{
+    text-align: left;
+}
+
+.footer{
+    background-color: #d6a569;
+    color: #ffffff;
+    height: 33%;
+}
+
+
+.col-2{
+    float: right;
+    width: 35%;
+}
+
+.local:before, .email:before, .telefone:before{
+    content: '';
+    width: 20px; 
+    height: 32px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before{
+    background-image: url('../img/local.png');
+}
+
+.email:before{
+    background-image: url('../img/email.png');
+}
+
+.telefone:before{
+    background-image: url('../img/telefone.png');
+}
+
+.footer2{
+    background-color: #874e05;
+    height:12%;
+}
+
+.footer2 p{
+    float:left;
+    color: #c1c1c1;
+}
+
+.redes-sociais2 ul li {
+    margin-left: 10px;
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.redes-sociais2{
+    float: right;
+   
+}
+
+.fotos-mobile{
+    display: inline-flex;
+    padding-left: 582px;
+    padding-bottom: 85px;
+    float: left;
+
+}
+
+.foto-trabalho{
+    float: right;
+    margin-bottom: 50px;
+}
+
+.texto-destaque3{
+    text-align: left;
+    padding: 35px;
+    margin-top: 10px;
+    
+}
+
+.texto-trabalho{
+
+    margin-top: 58px;
+    
+}
+
+
+
